@@ -1,0 +1,936 @@
+{
+  "generatedAt": "2026-07-27",
+  "hostRepo": "Overdrive-Consulting/vcskills",
+  "skills": [
+    {
+      "slug": "ai-product-skill",
+      "name": "AI Product Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-product",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add ai-product-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill ai-product-skill"
+    },
+    {
+      "slug": "analyzing-funding-landscape-skill",
+      "name": "Analyzing Funding Landscape Skill",
+      "license": "none declared",
+      "source": "github.com/jesseotremblay/claude-skills/tree/main/analyzing-funding-landscape",
+      "commit": "0a6aadb262fb0764b82ab480b48627f630afb352",
+      "fileCount": 1,
+      "install": "npx vcskills add analyzing-funding-landscape-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill analyzing-funding-landscape-skill"
+    },
+    {
+      "slug": "architecture-diagram-creator-skill",
+      "name": "Architecture Diagram Creator Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/mhattingpete/claude-skills-marketplace",
+      "commit": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "fileCount": 4,
+      "install": "npx vcskills add architecture-diagram-creator-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill architecture-diagram-creator-skill"
+    },
+    {
+      "slug": "audit-context-building-skill",
+      "name": "Audit Context Building Skill",
+      "license": "CC-BY-SA-4.0",
+      "source": "github.com/trailofbits/skills",
+      "commit": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+      "fileCount": 15,
+      "install": "npx vcskills add audit-context-building-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill audit-context-building-skill"
+    },
+    {
+      "slug": "audit-support-skill",
+      "name": "Audit Support Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/audit-support",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add audit-support-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill audit-support-skill"
+    },
+    {
+      "slug": "aws-skills",
+      "name": "AWS Skills",
+      "license": "MIT",
+      "source": "github.com/zxkane/aws-skills",
+      "commit": "68530c6f296ccd2f5e99c79782f3e0fbf962c51a",
+      "fileCount": 32,
+      "install": "npx vcskills add aws-skills",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill aws-skills"
+    },
+    {
+      "slug": "board-prep-skill",
+      "name": "Board Prep Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/board-prep",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add board-prep-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill board-prep-skill"
+    },
+    {
+      "slug": "business-analytics-reporter-ai-labs",
+      "name": "Business Analytics Reporter (AI Labs)",
+      "license": "MIT",
+      "source": "github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/business-analytics-reporter",
+      "commit": "1a12bc7aadcc7b211f77a7455db454b77a71f827",
+      "fileCount": 7,
+      "install": "npx vcskills add business-analytics-reporter-ai-labs",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill business-analytics-reporter-ai-labs"
+    },
+    {
+      "slug": "call-prep-skill",
+      "name": "Call Prep Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/call-prep",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add call-prep-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill call-prep-skill"
+    },
+    {
+      "slug": "churn-prediction-skill",
+      "name": "Churn Prediction Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/CX/skills/churn-prediction",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add churn-prediction-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill churn-prediction-skill"
+    },
+    {
+      "slug": "claude-d3js-skill",
+      "name": "Claude D3.js Skill",
+      "license": "none declared",
+      "source": "github.com/chrisvoncsefalvay/claude-d3js-skill",
+      "commit": "e198c87d03f1c9811acbff681886fac24baee53d",
+      "fileCount": 7,
+      "install": "npx vcskills add claude-d3js-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill claude-d3js-skill"
+    },
+    {
+      "slug": "claude-scientific-skills",
+      "name": "Claude Scientific Skills",
+      "license": "MIT",
+      "source": "github.com/K-Dense-AI/claude-scientific-skills",
+      "commit": "58746dc785d2c8469dd4736e4e27a3d0835d2760",
+      "fileCount": 2,
+      "install": "npx vcskills add claude-scientific-skills",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill claude-scientific-skills"
+    },
+    {
+      "slug": "cloudflare-skill",
+      "name": "Cloudflare Skill",
+      "license": "MIT",
+      "source": "github.com/dmmulroy/cloudflare-skill",
+      "commit": "97a85fdde7fe9695fbcba0c6bfde18dcdb5993d7",
+      "fileCount": 200,
+      "install": "npx vcskills add cloudflare-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill cloudflare-skill"
+    },
+    {
+      "slug": "code-auditor-skill",
+      "name": "Code Auditor Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/mhattingpete/claude-skills-marketplace",
+      "commit": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "fileCount": 4,
+      "install": "npx vcskills add code-auditor-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill code-auditor-skill"
+    },
+    {
+      "slug": "company-narrative-skill",
+      "name": "Company Narrative Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/company-narrative",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add company-narrative-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill company-narrative-skill"
+    },
+    {
+      "slug": "competitive-intelligence-market-research-skill",
+      "name": "Competitive Intelligence & Market Research Skill",
+      "license": "none declared",
+      "source": "github.com/sundial-org/awesome-openclaw-skills/tree/main/skills/competitive-intelligence-market-research",
+      "commit": "b80cde2ef85241dd4fd54a1b934f5e22835f78ba",
+      "fileCount": 2,
+      "install": "npx vcskills add competitive-intelligence-market-research-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitive-intelligence-market-research-skill"
+    },
+    {
+      "slug": "competitive-intelligence-skill",
+      "name": "Competitive Intelligence Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/competitive-intelligence",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add competitive-intelligence-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitive-intelligence-skill"
+    },
+    {
+      "slug": "competitive-landscape-analysis-skill-wshobson",
+      "name": "Competitive Landscape Analysis Skill (wshobson)",
+      "license": "MIT",
+      "source": "github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/competitive-landscape",
+      "commit": "c4b82b0ad771190355eb8e204b1329732a18449a",
+      "fileCount": 1,
+      "install": "npx vcskills add competitive-landscape-analysis-skill-wshobson",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitive-landscape-analysis-skill-wshobson"
+    },
+    {
+      "slug": "competitor-intelligence-skill-founder",
+      "name": "Competitor Intelligence Skill (Founder)",
+      "license": "MIT",
+      "source": "github.com/ognjengt/founder-skills/tree/main/skills/competitor-intel",
+      "commit": "a45931cad934dc6243a68f905485467935a4ad9a",
+      "fileCount": 1,
+      "install": "npx vcskills add competitor-intelligence-skill-founder",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitor-intelligence-skill-founder"
+    },
+    {
+      "slug": "contract-review-skill-cuad",
+      "name": "Contract Review Skill (CUAD)",
+      "license": "MIT",
+      "source": "github.com/evolsb/claude-legal-skill",
+      "commit": "bca0d2e9d5ec81298ddfbfde78fa4f38fb4589b0",
+      "fileCount": 10,
+      "install": "npx vcskills add contract-review-skill-cuad",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill contract-review-skill-cuad"
+    },
+    {
+      "slug": "copywriting-skill",
+      "name": "Copywriting Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add copywriting-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill copywriting-skill"
+    },
+    {
+      "slug": "creating-financial-models-skill-cookbooks",
+      "name": "Creating Financial Models Skill (Cookbooks)",
+      "license": "MIT",
+      "source": "github.com/anthropics/claude-cookbooks/tree/main/skills/custom_skills/creating-financial-models",
+      "commit": "85016cacf5b7923aa62aa2b514399325e9d159e9",
+      "fileCount": 3,
+      "install": "npx vcskills add creating-financial-models-skill-cookbooks",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill creating-financial-models-skill-cookbooks"
+    },
+    {
+      "slug": "dashboard-creator-skill",
+      "name": "Dashboard Creator Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/mhattingpete/claude-skills-marketplace",
+      "commit": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "fileCount": 4,
+      "install": "npx vcskills add dashboard-creator-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill dashboard-creator-skill"
+    },
+    {
+      "slug": "data-and-metrics-skill",
+      "name": "Data and Metrics Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/data-and-metrics",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add data-and-metrics-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill data-and-metrics-skill"
+    },
+    {
+      "slug": "data-storytelling-skill",
+      "name": "Data Storytelling Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/data-storytelling",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add data-storytelling-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill data-storytelling-skill"
+    },
+    {
+      "slug": "deep-research-skill",
+      "name": "Deep Research Skill",
+      "license": "none declared",
+      "source": "github.com/standardhuman/deep-research-skill",
+      "commit": "80912a2766b1e7055a794ab8725462b6cd02391d",
+      "fileCount": 7,
+      "install": "npx vcskills add deep-research-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill deep-research-skill"
+    },
+    {
+      "slug": "demo-script-skill",
+      "name": "Demo Script Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/demo-script",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add demo-script-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill demo-script-skill"
+    },
+    {
+      "slug": "differential-review-skill",
+      "name": "Differential Review Skill",
+      "license": "CC-BY-SA-4.0",
+      "source": "github.com/trailofbits/skills",
+      "commit": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+      "fileCount": 15,
+      "install": "npx vcskills add differential-review-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill differential-review-skill"
+    },
+    {
+      "slug": "expansion-playbook-skill",
+      "name": "Expansion Playbook Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/CX/skills/expansion-playbook",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add expansion-playbook-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill expansion-playbook-skill"
+    },
+    {
+      "slug": "financial-statements-skill",
+      "name": "Financial Statements Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/financial-statements",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add financial-statements-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill financial-statements-skill"
+    },
+    {
+      "slug": "founder-coach-skill",
+      "name": "Founder Coach Skill",
+      "license": "none declared",
+      "source": "github.com/acossta/chief-of-staff-oss/tree/main/.claude/skills/founder-coach",
+      "commit": "66fc2bba7e508fa1209b4ba4813d4b9c806b7f9a",
+      "fileCount": 5,
+      "install": "npx vcskills add founder-coach-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill founder-coach-skill"
+    },
+    {
+      "slug": "founder-market-research-skill",
+      "name": "Founder Market Research Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/market-research",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add founder-market-research-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill founder-market-research-skill"
+    },
+    {
+      "slug": "founder-playbook-skill",
+      "name": "Founder Playbook Skill",
+      "license": "MIT",
+      "source": "github.com/tenequm/claude-plugins",
+      "commit": "09432faff446896ad984001af3ef36d8675ff7d1",
+      "fileCount": 5,
+      "install": "npx vcskills add founder-playbook-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill founder-playbook-skill"
+    },
+    {
+      "slug": "founder-sales-sprint-skill-lenny",
+      "name": "Founder Sales Sprint Skill (Lenny)",
+      "license": "Apache-2.0",
+      "source": "github.com/liqiongyu/lenny_skills_plus/tree/main/skills/founder-sales",
+      "commit": "df4fa3412a9252d86c92f32351ba997e31667790",
+      "fileCount": 14,
+      "install": "npx vcskills add founder-sales-sprint-skill-lenny",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill founder-sales-sprint-skill-lenny"
+    },
+    {
+      "slug": "fundraising-knowledge-skill",
+      "name": "Fundraising Knowledge Skill",
+      "license": "none declared",
+      "source": "github.com/yamz8/open-ceo/tree/main/fundraising/skills/fundraising-knowledge",
+      "commit": "81458fbc0d44cc1de2cd24553485daeeaa041fa5",
+      "fileCount": 7,
+      "install": "npx vcskills add fundraising-knowledge-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill fundraising-knowledge-skill"
+    },
+    {
+      "slug": "fundraising-process-skill",
+      "name": "Fundraising Process Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/liqiongyu/lenny_skills_plus/tree/main/skills/fundraising",
+      "commit": "df4fa3412a9252d86c92f32351ba997e31667790",
+      "fileCount": 14,
+      "install": "npx vcskills add fundraising-process-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill fundraising-process-skill"
+    },
+    {
+      "slug": "go-to-market-plan-skill-founder",
+      "name": "Go-to-Market Plan Skill (Founder)",
+      "license": "MIT",
+      "source": "github.com/ognjengt/founder-skills/tree/main/skills/go-to-market-plan",
+      "commit": "a45931cad934dc6243a68f905485467935a4ad9a",
+      "fileCount": 1,
+      "install": "npx vcskills add go-to-market-plan-skill-founder",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill go-to-market-plan-skill-founder"
+    },
+    {
+      "slug": "gtm-strategy-skill",
+      "name": "GTM Strategy Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/gtm-strategy",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add gtm-strategy-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill gtm-strategy-skill"
+    },
+    {
+      "slug": "health-scoring-skill",
+      "name": "Health Scoring Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/CX/skills/health-scoring",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add health-scoring-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill health-scoring-skill"
+    },
+    {
+      "slug": "hiring-skill",
+      "name": "Hiring Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/hiring",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add hiring-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill hiring-skill"
+    },
+    {
+      "slug": "investor-management-skill",
+      "name": "Investor Management Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-management",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add investor-management-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill investor-management-skill"
+    },
+    {
+      "slug": "investor-research-skill",
+      "name": "Investor Research Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-research",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add investor-research-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill investor-research-skill"
+    },
+    {
+      "slug": "investor-updates-skill",
+      "name": "Investor Updates Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-updates",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add investor-updates-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill investor-updates-skill"
+    },
+    {
+      "slug": "kpi-dashboard-design-skill",
+      "name": "KPI Dashboard Design Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/kpi-dashboard-design",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add kpi-dashboard-design-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill kpi-dashboard-design-skill"
+    },
+    {
+      "slug": "launch-strategy-skill",
+      "name": "Launch Strategy Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/launch-strategy",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add launch-strategy-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill launch-strategy-skill"
+    },
+    {
+      "slug": "lean-startup-methodology-skill",
+      "name": "Lean Startup Methodology Skill",
+      "license": "none declared",
+      "source": "github.com/rwHiveAqua/_idea_spinner/tree/main/.claude/skills/lean-startup",
+      "commit": "4de637dd0d9b34d3bc22fbff6ef844e29e392677",
+      "fileCount": 4,
+      "install": "npx vcskills add lean-startup-methodology-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill lean-startup-methodology-skill"
+    },
+    {
+      "slug": "legal-risk-assessment-skill",
+      "name": "Legal Risk Assessment Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add legal-risk-assessment-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill legal-risk-assessment-skill"
+    },
+    {
+      "slug": "market-sizing-analysis-skill",
+      "name": "Market Sizing Analysis Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/market-sizing-analysis",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 3,
+      "install": "npx vcskills add market-sizing-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill market-sizing-analysis-skill"
+    },
+    {
+      "slug": "marketing-competitive-analysis-skill",
+      "name": "Marketing Competitive Analysis Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Marketing/skills/competitive-analysis",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add marketing-competitive-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill marketing-competitive-analysis-skill"
+    },
+    {
+      "slug": "meeting-briefing-skill",
+      "name": "Meeting Briefing Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add meeting-briefing-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill meeting-briefing-skill"
+    },
+    {
+      "slug": "metrics-review-skill",
+      "name": "Metrics Review Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/metrics-review",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add metrics-review-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill metrics-review-skill"
+    },
+    {
+      "slug": "monthly-investor-updates-skill",
+      "name": "Monthly Investor Updates Skill",
+      "license": "none declared",
+      "source": "github.com/yamz8/open-ceo/tree/main/investor-updates/skills/monthly-investor-updates",
+      "commit": "81458fbc0d44cc1de2cd24553485daeeaa041fa5",
+      "fileCount": 6,
+      "install": "npx vcskills add monthly-investor-updates-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill monthly-investor-updates-skill"
+    },
+    {
+      "slug": "obra-superpowers",
+      "name": "Obra Superpowers",
+      "license": "MIT",
+      "source": "github.com/obra/superpowers",
+      "commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+      "fileCount": 8,
+      "install": "npx vcskills add obra-superpowers",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill obra-superpowers"
+    },
+    {
+      "slug": "outreach-specialist-skill-founder",
+      "name": "Outreach Specialist Skill (Founder)",
+      "license": "MIT",
+      "source": "github.com/ognjengt/founder-skills/tree/main/skills/outreach-specialist",
+      "commit": "a45931cad934dc6243a68f905485467935a4ad9a",
+      "fileCount": 3,
+      "install": "npx vcskills add outreach-specialist-skill-founder",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill outreach-specialist-skill-founder"
+    },
+    {
+      "slug": "pitch-deck-builder-ai-labs",
+      "name": "Pitch Deck Builder (AI Labs)",
+      "license": "MIT",
+      "source": "github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/pitch-deck",
+      "commit": "1a12bc7aadcc7b211f77a7455db454b77a71f827",
+      "fileCount": 5,
+      "install": "npx vcskills add pitch-deck-builder-ai-labs",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill pitch-deck-builder-ai-labs"
+    },
+    {
+      "slug": "pitch-deck-skill",
+      "name": "Pitch Deck Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/pitch-deck",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add pitch-deck-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill pitch-deck-skill"
+    },
+    {
+      "slug": "plan-creation-skill",
+      "name": "Plan Creation Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/plan-creation",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add plan-creation-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill plan-creation-skill"
+    },
+    {
+      "slug": "pricing-strategist-skill-founder",
+      "name": "Pricing Strategist Skill (Founder)",
+      "license": "MIT",
+      "source": "github.com/ognjengt/founder-skills/tree/main/skills/pricing-strategist",
+      "commit": "a45931cad934dc6243a68f905485467935a4ad9a",
+      "fileCount": 1,
+      "install": "npx vcskills add pricing-strategist-skill-founder",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill pricing-strategist-skill-founder"
+    },
+    {
+      "slug": "pricing-strategy-skill",
+      "name": "Pricing Strategy Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add pricing-strategy-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill pricing-strategy-skill"
+    },
+    {
+      "slug": "product-competitive-analysis-skill",
+      "name": "Product Competitive Analysis Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Product/skills/competitive-analysis",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add product-competitive-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-competitive-analysis-skill"
+    },
+    {
+      "slug": "product-led-growth-skill",
+      "name": "Product-Led Growth Skill",
+      "license": "MIT",
+      "source": "github.com/wdavidturner/product-skills/tree/main/skills/product-led-growth",
+      "commit": "103d6540d3c71610a3132917897746070a03bb0c",
+      "fileCount": 18,
+      "install": "npx vcskills add product-led-growth-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-led-growth-skill"
+    },
+    {
+      "slug": "product-manager-toolkit-skill",
+      "name": "Product Manager Toolkit Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/product-manager-toolkit",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 4,
+      "install": "npx vcskills add product-manager-toolkit-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-manager-toolkit-skill"
+    },
+    {
+      "slug": "product-market-fit-assessment-skill",
+      "name": "Product-Market Fit Assessment Skill",
+      "license": "NOASSERTION",
+      "source": "github.com/slgoodrich/agents/tree/main/plugins/ai-pm-copilot/skills/product-market-fit",
+      "commit": "3b5835b16649b8386ca2fdc90f564a8717b8c916",
+      "fileCount": 10,
+      "install": "npx vcskills add product-market-fit-assessment-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-market-fit-assessment-skill"
+    },
+    {
+      "slug": "product-marketing-skill",
+      "name": "Product Marketing Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Marketing/skills/product-marketing",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add product-marketing-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-marketing-skill"
+    },
+    {
+      "slug": "product-metrics-tracking-skill",
+      "name": "Product Metrics Tracking Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Product/skills/metrics-tracking",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add product-metrics-tracking-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill product-metrics-tracking-skill"
+    },
+    {
+      "slug": "prompt-engineer-skill",
+      "name": "Prompt Engineer Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add prompt-engineer-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill prompt-engineer-skill"
+    },
+    {
+      "slug": "quarterly-business-review-skill",
+      "name": "Quarterly Business Review Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/CX/skills/prepare-quarterly-business-review",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add quarterly-business-review-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill quarterly-business-review-skill"
+    },
+    {
+      "slug": "rag-engineer-skill",
+      "name": "RAG Engineer Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add rag-engineer-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill rag-engineer-skill"
+    },
+    {
+      "slug": "reconciliation-skill",
+      "name": "Reconciliation Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/reconciliation",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add reconciliation-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill reconciliation-skill"
+    },
+    {
+      "slug": "roadmap-management-skill",
+      "name": "Roadmap Management Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Product/skills/roadmap-management",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add roadmap-management-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill roadmap-management-skill"
+    },
+    {
+      "slug": "roi-calculator-skill",
+      "name": "ROI Calculator Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/roi-calculator",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add roi-calculator-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill roi-calculator-skill"
+    },
+    {
+      "slug": "sales-forecast-skill",
+      "name": "Sales Forecast Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/forecast",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add sales-forecast-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill sales-forecast-skill"
+    },
+    {
+      "slug": "sales-investor-emails-skill",
+      "name": "Sales & Investor Emails Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/sales-investor-emails",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add sales-investor-emails-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill sales-investor-emails-skill"
+    },
+    {
+      "slug": "sales-playbook-skill",
+      "name": "Sales Playbook Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/GTM/skills/sales-playbook",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add sales-playbook-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill sales-playbook-skill"
+    },
+    {
+      "slug": "seo-audit-skill",
+      "name": "SEO Audit Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add seo-audit-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill seo-audit-skill"
+    },
+    {
+      "slug": "stakeholder-comms-skill",
+      "name": "Stakeholder Comms Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Founder/skills/stakeholder-comms",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add stakeholder-comms-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill stakeholder-comms-skill"
+    },
+    {
+      "slug": "startup-analyst-skill",
+      "name": "Startup Analyst Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/startup-analyst",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add startup-analyst-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-analyst-skill"
+    },
+    {
+      "slug": "startup-financial-modeling-skill",
+      "name": "Startup Financial Modeling Skill",
+      "license": "MIT",
+      "source": "github.com/sickn33/antigravity-awesome-skills/tree/main/skills/startup-financial-modeling",
+      "commit": "d89bac541bd4d23b04d2392d6c860f6b93d5bd9b",
+      "fileCount": 1,
+      "install": "npx vcskills add startup-financial-modeling-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-financial-modeling-skill"
+    },
+    {
+      "slug": "startup-metrics-framework-skill",
+      "name": "Startup Metrics Framework Skill",
+      "license": "MIT",
+      "source": "github.com/wshobson/agents",
+      "commit": "c4b82b0ad771190355eb8e204b1329732a18449a",
+      "fileCount": 1,
+      "install": "npx vcskills add startup-metrics-framework-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-metrics-framework-skill"
+    },
+    {
+      "slug": "startup-pivoting-skill",
+      "name": "Startup Pivoting Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/liqiongyu/lenny_skills_plus/tree/main/skills/startup-pivoting",
+      "commit": "df4fa3412a9252d86c92f32351ba997e31667790",
+      "fileCount": 14,
+      "install": "npx vcskills add startup-pivoting-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-pivoting-skill"
+    },
+    {
+      "slug": "startup-validator-comprehensive-market-analysis",
+      "name": "Startup Validator (Comprehensive Market Analysis)",
+      "license": "MIT",
+      "source": "github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/startup-validator",
+      "commit": "1a12bc7aadcc7b211f77a7455db454b77a71f827",
+      "fileCount": 6,
+      "install": "npx vcskills add startup-validator-comprehensive-market-analysis",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-validator-comprehensive-market-analysis"
+    },
+    {
+      "slug": "static-analysis-skill",
+      "name": "Static Analysis Skill",
+      "license": "CC-BY-SA-4.0",
+      "source": "github.com/trailofbits/skills",
+      "commit": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+      "fileCount": 15,
+      "install": "npx vcskills add static-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill static-analysis-skill"
+    },
+    {
+      "slug": "strategic-pitch-optimization-skill",
+      "name": "Strategic Pitch Optimization Skill",
+      "license": "none declared",
+      "source": "github.com/samarv/Shanon/tree/main/.claude/skills/strategic-pitch-optimization",
+      "commit": "f3a3b3f576f275d2e84fa1f7ea2390290a8f5aad",
+      "fileCount": 1,
+      "install": "npx vcskills add strategic-pitch-optimization-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill strategic-pitch-optimization-skill"
+    },
+    {
+      "slug": "strategic-planning-skill-founder",
+      "name": "Strategic Planning Skill (Founder)",
+      "license": "MIT",
+      "source": "github.com/ognjengt/founder-skills/tree/main/skills/strategic-planning",
+      "commit": "a45931cad934dc6243a68f905485467935a4ad9a",
+      "fileCount": 1,
+      "install": "npx vcskills add strategic-planning-skill-founder",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill strategic-planning-skill-founder"
+    },
+    {
+      "slug": "stripe-best-practices-skill",
+      "name": "Stripe Best Practices Skill",
+      "license": "MIT",
+      "source": "github.com/stripe/ai",
+      "commit": "84c364c683c58ba8dfbc003d812e6a35f4c97b47",
+      "fileCount": 9,
+      "install": "npx vcskills add stripe-best-practices-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill stripe-best-practices-skill"
+    },
+    {
+      "slug": "terraform-code-generation-skill",
+      "name": "Terraform Code Generation Skill",
+      "license": "MPL-2.0",
+      "source": "github.com/hashicorp/agent-skills",
+      "commit": "8c6573abbd21e8094fab8f538eb5f97db63133fd",
+      "fileCount": 1,
+      "install": "npx vcskills add terraform-code-generation-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill terraform-code-generation-skill"
+    },
+    {
+      "slug": "timeline-creator-skill",
+      "name": "Timeline Creator Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/mhattingpete/claude-skills-marketplace",
+      "commit": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "fileCount": 4,
+      "install": "npx vcskills add timeline-creator-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill timeline-creator-skill"
+    },
+    {
+      "slug": "us-market-bubble-detector-skill",
+      "name": "US Market Bubble Detector Skill",
+      "license": "MIT",
+      "source": "github.com/tradermonty/claude-trading-skills/tree/main/skills/us-market-bubble-detector",
+      "commit": "62a16359964b80de118716b0b8cf27520d4e6dfe",
+      "fileCount": 9,
+      "install": "npx vcskills add us-market-bubble-detector-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill us-market-bubble-detector-skill"
+    },
+    {
+      "slug": "user-research-synthesis-skill",
+      "name": "User Research Synthesis Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/propane-ai/kits/tree/main/plugins/Product/skills/user-research-synthesis",
+      "commit": "0069e243f75a90e8f6caa5426ebe31a6d047ea30",
+      "fileCount": 1,
+      "install": "npx vcskills add user-research-synthesis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill user-research-synthesis-skill"
+    },
+    {
+      "slug": "variance-analysis-skill",
+      "name": "Variance Analysis Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/variance-analysis",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills add variance-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill variance-analysis-skill"
+    },
+    {
+      "slug": "vc-market-sizing",
+      "name": "VC Market Sizing",
+      "license": "NOASSERTION",
+      "source": "github.com/luisschmitzheadline/VC-Skills.md",
+      "commit": "c9d05d8f894a915cab68e85b738fb467c0c8932b",
+      "fileCount": 1,
+      "install": "npx vcskills add vc-market-sizing",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill vc-market-sizing"
+    },
+    {
+      "slug": "willingness-to-pay-discovery-skill",
+      "name": "Willingness-to-Pay Discovery Skill",
+      "license": "none declared",
+      "source": "github.com/samarv/Shanon/tree/main/.claude/skills/willingness-to-pay-discovery",
+      "commit": "f3a3b3f576f275d2e84fa1f7ea2390290a8f5aad",
+      "fileCount": 1,
+      "install": "npx vcskills add willingness-to-pay-discovery-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill willingness-to-pay-discovery-skill"
+    },
+    {
+      "slug": "yc-startup-fundamentals-skill",
+      "name": "YC Startup Fundamentals Skill",
+      "license": "none declared",
+      "source": "github.com/jona/ycombinator-skills/tree/main/skills/yc-startup-fundamentals",
+      "commit": "eddbd6ca2de2eb1984984a19d1685bbece60bef0",
+      "fileCount": 1,
+      "install": "npx vcskills add yc-startup-fundamentals-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill yc-startup-fundamentals-skill"
+    }
+  ]
+}
