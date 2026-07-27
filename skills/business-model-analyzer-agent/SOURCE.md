@@ -8,6 +8,7 @@
 - **Mirrored:** 2026-07-27
 - **Normalized:** frontmatter `name` changed from `business-model-analyzer-mx` to `business-model-analyzer-agent`
 - **Note:** upstream publishes this as business-model-analyzer-mx.md, mirrored as SKILL.md
+- **Note:** quoted invalid YAML frontmatter value(s): description
 
 Mirrored into the VCSkills library. Content belongs to its original authors;
 see LICENSE-UPSTREAM where present. To request removal, open an issue on
