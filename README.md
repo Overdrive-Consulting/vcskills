@@ -1,7 +1,7 @@
 # VCSkills
 
 The curated skill library for venture capital — 104 agent skills for GPs,
-analysts, and operators. Browse them at [vcskills.io](https://vcskills.io).
+analysts, and operators. Browse them at [vcskills.com](https://vcskills.com).
 
 ## Install
 
