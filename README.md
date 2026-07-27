@@ -6,6 +6,12 @@ analysts, and operators. Browse them at [vcskills.io](https://vcskills.io).
 ## Install
 
 ```bash
+npx vcskills-cli add <skill-name>
+```
+
+Or use the Skills CLI directly against this repo:
+
+```bash
 npx skills add Overdrive-Consulting/vcskills --skill <skill-name>
 ```
 
