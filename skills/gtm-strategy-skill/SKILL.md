@@ -1,6 +1,6 @@
 ---
 name: gtm-strategy-skill
-description: Plan GTM strategy: motion (PLG, SLG, hybrid), segments, channels, capacity. Trigger with "plan GTM strategy", "GTM strategy for [product/segment]", or use the /plan-gtm-strategy command.
+description: "Plan GTM strategy: motion (PLG, SLG, hybrid), segments, channels, capacity. Trigger with \"plan GTM strategy\", \"GTM strategy for [product/segment]\", or use the /plan-gtm-strategy command."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

@@ -1,6 +1,6 @@
 ---
 name: board-prep-skill
-description: Board meeting preparation: agenda, metrics, narrative, follow-ups. Use when preparing for a board meeting.
+description: "Board meeting preparation: agenda, metrics, narrative, follow-ups. Use when preparing for a board meeting."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

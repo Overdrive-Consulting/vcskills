@@ -7,6 +7,7 @@
 - **License:** Apache-2.0
 - **Mirrored:** 2026-07-27
 - **Normalized:** frontmatter `name` changed from `sales-investor-emails` to `sales-investor-emails-skill`
+- **Note:** quoted invalid YAML frontmatter value(s): description
 
 Mirrored into the VCSkills library. Content belongs to its original authors;
 see LICENSE-UPSTREAM where present. To request removal, open an issue on

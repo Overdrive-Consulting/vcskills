@@ -1,6 +1,6 @@
 ---
 name: pitch-deck-skill
-description: Pitch deck structure and content: slide flow, narrative, key bullets per slide. Use when creating a full pitch deck outline for investors or customers.
+description: "Pitch deck structure and content: slide flow, narrative, key bullets per slide. Use when creating a full pitch deck outline for investors or customers."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

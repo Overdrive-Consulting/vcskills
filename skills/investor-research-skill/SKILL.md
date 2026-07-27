@@ -1,6 +1,6 @@
 ---
 name: investor-research-skill
-description: Research investors and funds: thesis, stage, portfolio, recent activity, and warm intro angles. Use when researching a fund or investor for fundraising or relationship building.
+description: "Research investors and funds: thesis, stage, portfolio, recent activity, and warm intro angles. Use when researching a fund or investor for fundraising or relationship building."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

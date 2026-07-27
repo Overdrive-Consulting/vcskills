@@ -1,6 +1,6 @@
 ---
 name: company-narrative-skill
-description: Company narrative and pitch brief: story, positioning, key messages. Use when creating a one-page narrative or pitch brief for investors, sales, or board.
+description: "Company narrative and pitch brief: story, positioning, key messages. Use when creating a one-page narrative or pitch brief for investors, sales, or board."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

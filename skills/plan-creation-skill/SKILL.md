@@ -1,6 +1,6 @@
 ---
 name: plan-creation-skill
-description: Strategic and operational plans: OKR, quarterly, launch. Use when creating OKRs, quarterly plans, or launch plans.
+description: "Strategic and operational plans: OKR, quarterly, launch. Use when creating OKRs, quarterly plans, or launch plans."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

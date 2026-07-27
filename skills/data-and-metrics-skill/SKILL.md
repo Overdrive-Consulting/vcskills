@@ -1,6 +1,6 @@
 ---
 name: data-and-metrics-skill
-description: Ad-hoc data briefs: metric definitions, dimensions, and insights from available data. Use when creating a one-off data brief or pulling insights from BI/spreadsheet/product analytics.
+description: "Ad-hoc data briefs: metric definitions, dimensions, and insights from available data. Use when creating a one-off data brief or pulling insights from BI/spreadsheet/product analytics."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

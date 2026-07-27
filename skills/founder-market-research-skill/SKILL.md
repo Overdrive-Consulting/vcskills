@@ -1,6 +1,6 @@
 ---
 name: founder-market-research-skill
-description: Research markets and segments: TAM/SAM/SOM, trends, drivers, and competitive landscape. Use when sizing a market or preparing founder-level market context.
+description: "Research markets and segments: TAM/SAM/SOM, trends, drivers, and competitive landscape. Use when sizing a market or preparing founder-level market context."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

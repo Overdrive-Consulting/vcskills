@@ -1,6 +1,6 @@
 ---
 name: hiring-skill
-description: Hiring briefs and job descriptions: scope, profile, success criteria, responsibilities, requirements. Use when creating a hiring brief or full job description.
+description: "Hiring briefs and job descriptions: scope, profile, success criteria, responsibilities, requirements. Use when creating a hiring brief or full job description."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

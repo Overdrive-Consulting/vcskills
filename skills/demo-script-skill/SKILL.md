@@ -1,6 +1,6 @@
 ---
 name: demo-script-skill
-description: Create a demo script for a product or audience. Structure: intro, key flows, objection handling, close. Trigger with "create demo script for [product/audience]", "demo script for [company]", or use the /create-demo-script command.
+description: "Create a demo script for a product or audience. Structure: intro, key flows, objection handling, close. Trigger with \"create demo script for [product/audience]\", \"demo script for [company]\", or use the /create-demo-script command."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

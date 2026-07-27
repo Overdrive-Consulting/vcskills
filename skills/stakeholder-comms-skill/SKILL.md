@@ -1,6 +1,6 @@
 ---
 name: stakeholder-comms-skill
-description: Stakeholder briefs for board, investors, or exec team: status, decisions, asks. Use when creating a brief for board, investors, or exec team.
+description: "Stakeholder briefs for board, investors, or exec team: status, decisions, asks. Use when creating a brief for board, investors, or exec team."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

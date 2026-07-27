@@ -1,6 +1,6 @@
 ---
 name: investor-management-skill
-description: Manage investor list and cap table notes: stage, follow-ups, contact tracking. Use when tracking prospects, meetings, term sheets, or cap table context.
+description: "Manage investor list and cap table notes: stage, follow-ups, contact tracking. Use when tracking prospects, meetings, term sheets, or cap table context."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

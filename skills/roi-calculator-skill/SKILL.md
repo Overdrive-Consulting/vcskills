@@ -1,6 +1,6 @@
 ---
 name: roi-calculator-skill
-description: Build an ROI calculator or value model for deals. Inputs: cost savings, efficiency gains, revenue impact. Output: ROI %, payback period, value summary. Trigger with "create ROI calculator for [deal/segment]", "value model for [product]", or use the /create-roi-calculator command.
+description: "Build an ROI calculator or value model for deals. Inputs: cost savings, efficiency gains, revenue impact. Output: ROI %, payback period, value summary. Trigger with \"create ROI calculator for [deal/segment]\", \"value model for [product]\", or use the /create-roi-calculator command."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

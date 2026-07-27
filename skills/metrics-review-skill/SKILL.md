@@ -1,6 +1,6 @@
 ---
 name: metrics-review-skill
-description: Recurring metrics review: KPIs, trends, board-ready summary. Use when running a periodic (e.g. monthly/quarterly) metrics review for leadership or board.
+description: "Recurring metrics review: KPIs, trends, board-ready summary. Use when running a periodic (e.g. monthly/quarterly) metrics review for leadership or board."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

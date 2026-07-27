@@ -1,6 +1,6 @@
 ---
 name: investor-updates-skill
-description: Structure and draft investor updates: highlights, metrics, challenges, asks, runway. Use when drafting monthly or quarterly investor updates.
+description: "Structure and draft investor updates: highlights, metrics, challenges, asks, runway. Use when drafting monthly or quarterly investor updates."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).

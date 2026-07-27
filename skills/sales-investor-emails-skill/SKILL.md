@@ -1,6 +1,6 @@
 ---
 name: sales-investor-emails-skill
-description: Draft sales or investor emails: cold outreach, follow-up, intro request, update. Use when drafting outreach to investors or sales prospects.
+description: "Draft sales or investor emails: cold outreach, follow-up, intro request, update. Use when drafting outreach to investors or sales prospects."
 ---
 
 > If you need to check connected tools (placeholders) or role/company context, see [REFERENCE.md](../../REFERENCE.md).
