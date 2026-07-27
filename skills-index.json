@@ -83,6 +83,26 @@
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill business-analytics-reporter-ai-labs"
     },
     {
+      "slug": "business-model-analyzer-agent",
+      "name": "Business Model Analyzer Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add business-model-analyzer-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill business-model-analyzer-agent"
+    },
+    {
+      "slug": "business-strategist-agent",
+      "name": "Business Strategist Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add business-strategist-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill business-strategist-agent"
+    },
+    {
       "slug": "call-prep-skill",
       "name": "Call Prep Skill",
       "license": "Apache-2.0",
@@ -151,6 +171,26 @@
       "fileCount": 1,
       "install": "npx vcskills-cli add company-narrative-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill company-narrative-skill"
+    },
+    {
+      "slug": "competitive-analysis-skill",
+      "name": "Competitive Analysis Skill",
+      "license": "Apache-2.0",
+      "source": "github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/competitive-brief",
+      "commit": "5dd7f84b824de680b296e85b55bad840a95bd0fa",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add competitive-analysis-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitive-analysis-skill"
+    },
+    {
+      "slug": "competitive-intelligence-agent",
+      "name": "Competitive Intelligence Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add competitive-intelligence-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill competitive-intelligence-agent"
     },
     {
       "slug": "competitive-intelligence-market-research-skill",
@@ -223,6 +263,16 @@
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill creating-financial-models-skill-cookbooks"
     },
     {
+      "slug": "customer-acquisition-agent",
+      "name": "Customer Acquisition Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add customer-acquisition-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill customer-acquisition-agent"
+    },
+    {
       "slug": "dashboard-creator-skill",
       "name": "Dashboard Creator Skill",
       "license": "Apache-2.0",
@@ -291,6 +341,16 @@
       "fileCount": 1,
       "install": "npx vcskills-cli add expansion-playbook-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill expansion-playbook-skill"
+    },
+    {
+      "slug": "financial-analyst-agent",
+      "name": "Financial Analyst Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add financial-analyst-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill financial-analyst-agent"
     },
     {
       "slug": "financial-statements-skill",
@@ -401,6 +461,16 @@
       "fileCount": 1,
       "install": "npx vcskills-cli add hiring-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill hiring-skill"
+    },
+    {
+      "slug": "investment-analyst-agent",
+      "name": "Investment Analyst Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add investment-analyst-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill investment-analyst-agent"
     },
     {
       "slug": "investor-management-skill",
@@ -541,6 +611,16 @@
       "fileCount": 3,
       "install": "npx vcskills-cli add outreach-specialist-skill-founder",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill outreach-specialist-skill-founder"
+    },
+    {
+      "slug": "partnership-strategist-agent",
+      "name": "Partnership Strategist Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add partnership-strategist-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill partnership-strategist-agent"
     },
     {
       "slug": "pitch-deck-builder-ai-labs",
@@ -691,6 +771,26 @@
       "fileCount": 1,
       "install": "npx vcskills-cli add reconciliation-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill reconciliation-skill"
+    },
+    {
+      "slug": "revenue-analyst-agent",
+      "name": "Revenue Analyst Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add revenue-analyst-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill revenue-analyst-agent"
+    },
+    {
+      "slug": "risk-assessor-agent",
+      "name": "Risk Assessor Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add risk-assessor-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill risk-assessor-agent"
     },
     {
       "slug": "roadmap-management-skill",
@@ -851,6 +951,16 @@
       "fileCount": 9,
       "install": "npx vcskills-cli add stripe-best-practices-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill stripe-best-practices-skill"
+    },
+    {
+      "slug": "tam-market-sizing-agent",
+      "name": "TAM Market Sizing Agent",
+      "license": "none declared",
+      "source": "github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents",
+      "commit": "1a16f36820d5db5516cf188712fcbb10ae63811c",
+      "fileCount": 1,
+      "install": "npx vcskills-cli add tam-market-sizing-agent",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill tam-market-sizing-agent"
     },
     {
       "slug": "terraform-code-generation-skill",

@@ -1,6 +1,6 @@
 # VCSkills
 
-The curated skill library for venture capital — 93 agent skills for GPs,
+The curated skill library for venture capital — 104 agent skills for GPs,
 analysts, and operators. Browse them at [vcskills.io](https://vcskills.io).
 
 ## Install
@@ -43,9 +43,9 @@ Licenses across the library:
 
 | License | Skills |
 |---|---|
-| Apache-2.0 | 43 |
+| Apache-2.0 | 44 |
 | MIT | 33 |
-| none declared | 11 |
+| none declared | 21 |
 | CC-BY-SA-4.0 | 3 |
 | NOASSERTION | 2 |
 | MPL-2.0 | 1 |
@@ -69,6 +69,8 @@ We will act on it promptly — no justification needed.
 | [`aws-skills`](skills/aws-skills/) | MIT | [zxkane/aws-skills](https://github.com/zxkane/aws-skills) |
 | [`board-prep-skill`](skills/board-prep-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/board-prep) |
 | [`business-analytics-reporter-ai-labs`](skills/business-analytics-reporter-ai-labs/) | MIT | [ailabs-393/ai-labs-claude-skills](https://github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/business-analytics-reporter) |
+| [`business-model-analyzer-agent`](skills/business-model-analyzer-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents) |
+| [`business-strategist-agent`](skills/business-strategist-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy) |
 | [`call-prep-skill`](skills/call-prep-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/call-prep) |
 | [`churn-prediction-skill`](skills/churn-prediction-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/CX/skills/churn-prediction) |
 | [`claude-d3js-skill`](skills/claude-d3js-skill/) | none declared | [chrisvoncsefalvay/claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill) |
@@ -76,6 +78,8 @@ We will act on it promptly — no justification needed.
 | [`cloudflare-skill`](skills/cloudflare-skill/) | MIT | [dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill) |
 | [`code-auditor-skill`](skills/code-auditor-skill/) | Apache-2.0 | [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) |
 | [`company-narrative-skill`](skills/company-narrative-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/company-narrative) |
+| [`competitive-analysis-skill`](skills/competitive-analysis-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/competitive-brief) |
+| [`competitive-intelligence-agent`](skills/competitive-intelligence-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents) |
 | [`competitive-intelligence-market-research-skill`](skills/competitive-intelligence-market-research-skill/) | none declared | [sundial-org/awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills/tree/main/skills/competitive-intelligence-market-research) |
 | [`competitive-intelligence-skill`](skills/competitive-intelligence-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/competitive-intelligence) |
 | [`competitive-landscape-analysis-skill-wshobson`](skills/competitive-landscape-analysis-skill-wshobson/) | MIT | [wshobson/agents](https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/competitive-landscape) |
@@ -83,6 +87,7 @@ We will act on it promptly — no justification needed.
 | [`contract-review-skill-cuad`](skills/contract-review-skill-cuad/) | MIT | [evolsb/claude-legal-skill](https://github.com/evolsb/claude-legal-skill) |
 | [`copywriting-skill`](skills/copywriting-skill/) | MIT | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
 | [`creating-financial-models-skill-cookbooks`](skills/creating-financial-models-skill-cookbooks/) | MIT | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks/tree/main/skills/custom_skills/creating-financial-models) |
+| [`customer-acquisition-agent`](skills/customer-acquisition-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations) |
 | [`dashboard-creator-skill`](skills/dashboard-creator-skill/) | Apache-2.0 | [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) |
 | [`data-and-metrics-skill`](skills/data-and-metrics-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/data-and-metrics) |
 | [`data-storytelling-skill`](skills/data-storytelling-skill/) | MIT | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/data-storytelling) |
@@ -90,6 +95,7 @@ We will act on it promptly — no justification needed.
 | [`demo-script-skill`](skills/demo-script-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/demo-script) |
 | [`differential-review-skill`](skills/differential-review-skill/) | CC-BY-SA-4.0 | [trailofbits/skills](https://github.com/trailofbits/skills) |
 | [`expansion-playbook-skill`](skills/expansion-playbook-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/CX/skills/expansion-playbook) |
+| [`financial-analyst-agent`](skills/financial-analyst-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy) |
 | [`financial-statements-skill`](skills/financial-statements-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/financial-statements) |
 | [`founder-coach-skill`](skills/founder-coach-skill/) | none declared | [acossta/chief-of-staff-oss](https://github.com/acossta/chief-of-staff-oss/tree/main/.claude/skills/founder-coach) |
 | [`founder-market-research-skill`](skills/founder-market-research-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/market-research) |
@@ -101,6 +107,7 @@ We will act on it promptly — no justification needed.
 | [`gtm-strategy-skill`](skills/gtm-strategy-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/gtm-strategy) |
 | [`health-scoring-skill`](skills/health-scoring-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/CX/skills/health-scoring) |
 | [`hiring-skill`](skills/hiring-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/hiring) |
+| [`investment-analyst-agent`](skills/investment-analyst-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy) |
 | [`investor-management-skill`](skills/investor-management-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-management) |
 | [`investor-research-skill`](skills/investor-research-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-research) |
 | [`investor-updates-skill`](skills/investor-updates-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/investor-updates) |
@@ -115,6 +122,7 @@ We will act on it promptly — no justification needed.
 | [`monthly-investor-updates-skill`](skills/monthly-investor-updates-skill/) | none declared | [yamz8/open-ceo](https://github.com/yamz8/open-ceo/tree/main/investor-updates/skills/monthly-investor-updates) |
 | [`obra-superpowers`](skills/obra-superpowers/) | MIT | [obra/superpowers](https://github.com/obra/superpowers) |
 | [`outreach-specialist-skill-founder`](skills/outreach-specialist-skill-founder/) | MIT | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills/tree/main/skills/outreach-specialist) |
+| [`partnership-strategist-agent`](skills/partnership-strategist-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations) |
 | [`pitch-deck-builder-ai-labs`](skills/pitch-deck-builder-ai-labs/) | MIT | [ailabs-393/ai-labs-claude-skills](https://github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/pitch-deck) |
 | [`pitch-deck-skill`](skills/pitch-deck-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/pitch-deck) |
 | [`plan-creation-skill`](skills/plan-creation-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Founder/skills/plan-creation) |
@@ -130,6 +138,8 @@ We will act on it promptly — no justification needed.
 | [`quarterly-business-review-skill`](skills/quarterly-business-review-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/CX/skills/prepare-quarterly-business-review) |
 | [`rag-engineer-skill`](skills/rag-engineer-skill/) | MIT | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
 | [`reconciliation-skill`](skills/reconciliation-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/reconciliation) |
+| [`revenue-analyst-agent`](skills/revenue-analyst-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/growth-revenue-operations) |
+| [`risk-assessor-agent`](skills/risk-assessor-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/finance-strategy) |
 | [`roadmap-management-skill`](skills/roadmap-management-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Product/skills/roadmap-management) |
 | [`roi-calculator-skill`](skills/roi-calculator-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/roi-calculator) |
 | [`sales-forecast-skill`](skills/sales-forecast-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/GTM/skills/forecast) |
@@ -146,6 +156,7 @@ We will act on it promptly — no justification needed.
 | [`strategic-pitch-optimization-skill`](skills/strategic-pitch-optimization-skill/) | none declared | [samarv/Shanon](https://github.com/samarv/Shanon/tree/main/.claude/skills/strategic-pitch-optimization) |
 | [`strategic-planning-skill-founder`](skills/strategic-planning-skill-founder/) | MIT | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills/tree/main/skills/strategic-planning) |
 | [`stripe-best-practices-skill`](skills/stripe-best-practices-skill/) | MIT | [stripe/ai](https://github.com/stripe/ai) |
+| [`tam-market-sizing-agent`](skills/tam-market-sizing-agent/) | none declared | [NicholasSpisak/claude-code-subagents](https://github.com/NicholasSpisak/claude-code-subagents/tree/main/agents/market-research-agents) |
 | [`terraform-code-generation-skill`](skills/terraform-code-generation-skill/) | MPL-2.0 | [hashicorp/agent-skills](https://github.com/hashicorp/agent-skills) |
 | [`timeline-creator-skill`](skills/timeline-creator-skill/) | Apache-2.0 | [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) |
 | [`us-market-bubble-detector-skill`](skills/us-market-bubble-detector-skill/) | MIT | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills/tree/main/skills/us-market-bubble-detector) |
