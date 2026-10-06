@@ -1,6 +1,6 @@
 # VCSkills
 
-The curated skill library for venture capital — 105 agent skills for GPs,
+The curated skill library for venture capital — 106 agent skills for GPs,
 analysts, and operators. Browse them at [vcskills.com](https://vcskills.com).
 
 ## Install
@@ -44,7 +44,7 @@ Licenses across the library:
 | License | Skills |
 |---|---|
 | Apache-2.0 | 44 |
-| MIT | 34 |
+| MIT | 35 |
 | none declared | 21 |
 | CC-BY-SA-4.0 | 3 |
 | NOASSERTION | 2 |
@@ -165,4 +165,5 @@ We will act on it promptly — no justification needed.
 | [`variance-analysis-skill`](skills/variance-analysis-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/variance-analysis) |
 | [`vc-market-sizing`](skills/vc-market-sizing/) | NOASSERTION | [luisschmitzheadline/VC-Skills.md](https://github.com/luisschmitzheadline/VC-Skills.md) |
 | [`willingness-to-pay-discovery-skill`](skills/willingness-to-pay-discovery-skill/) | none declared | [samarv/Shanon](https://github.com/samarv/Shanon/tree/main/.claude/skills/willingness-to-pay-discovery) |
+| [`yc-sourcing-skill`](skills/yc-sourcing-skill/) | MIT | [Overdrive-Consulting/vcskills](https://github.com/Overdrive-Consulting/vcskills/tree/main/skills/yc-sourcing-skill) |
 | [`yc-startup-fundamentals-skill`](skills/yc-startup-fundamentals-skill/) | none declared | [jona/ycombinator-skills](https://github.com/jona/ycombinator-skills/tree/main/skills/yc-startup-fundamentals) |

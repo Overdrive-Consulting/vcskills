@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FounderProfile",
+  "description": "Enriched founder profiles produced by enrich-founders. One record per founder.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "founder_id", "name"],
+    "properties": {
+      "company_id": { "type": "integer" },
+      "company_name": { "type": "string" },
+      "founder_id": { "type": "integer" },
+      "name": { "type": "string" },
+      "title": { "type": ["string", "null"] },
+      "bio": { "type": ["string", "null"] },
+      "bio_source": {
+        "type": ["string", "null"],
+        "enum": ["yc", "exa", null],
+        "description": "Where the bio came from"
+      },
+      "email": { "type": ["string", "null"] },
+      "email_status": {
+        "type": ["string", "null"],
+        "enum": ["verified", "risky", null]
+      },
+      "email_tier": {
+        "type": ["string", "null"],
+        "enum": ["confirmed", "inferred", "not_found", null],
+        "description": "confirmed = verified or high-confidence; inferred = low-confidence; not_found = no email"
+      },
+      "email_source": {
+        "type": ["string", "null"],
+        "enum": ["yc", "icypeas", "public_page", null],
+        "description": "Where the email came from"
+      },
+      "linkedin": { "type": ["string", "null"] },
+      "linkedin_source": {
+        "type": ["string", "null"],
+        "enum": ["yc", "exa", null]
+      },
+      "x": { "type": ["string", "null"] }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CompanyFundraise",
+  "description": "Fundraising history produced by find-latest-fundraise. One record per company.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "fundraising_status"],
+    "properties": {
+      "company_id": { "type": "integer" },
+      "company_name": { "type": "string" },
+      "fundraising_status": {
+        "type": "string",
+        "enum": ["yc_only", "seed_funded", "series_a", "growth_stage", "bridge", "actively_raising", "unknown"]
+      },
+      "has_post_yc_funding": { "type": "boolean" },
+      "total_raised_usd": {
+        "type": ["number", "null"],
+        "description": "Total USD raised across all known rounds. Null if mostly undisclosed."
+      },
+      "last_round_date": {
+        "type": ["string", "null"],
+        "description": "ISO date or year-only string for sorting by recency"
+      },
+      "likely_raising_soon": {
+        "type": "boolean",
+        "description": "True if signals suggest the company may be raising soon"
+      },
+      "notes": {
+        "type": ["string", "null"],
+        "description": "1-2 sentence funding status summary for VC context"
+      },
+      "rounds": {
+        "type": "array",
+        "description": "All known funding rounds, most recent first",
+        "items": {
+          "type": "object",
+          "required": ["round_type"],
+          "properties": {
+            "round_type": {
+              "type": "string",
+              "enum": ["YC", "Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Bridge", "SAFE", "Other"]
+            },
+            "amount_usd": { "type": ["number", "null"] },
+            "announced_date": { "type": ["string", "null"] },
+            "lead_investors": { "type": "array", "items": { "type": "string" } },
+            "all_investors": { "type": "array", "items": { "type": "string" } },
+            "source_url": { "type": ["string", "null"] },
+            "source_name": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

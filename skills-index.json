@@ -1043,6 +1043,16 @@
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill willingness-to-pay-discovery-skill"
     },
     {
+      "slug": "yc-sourcing-skill",
+      "name": "YC Sourcing Skill",
+      "license": "MIT",
+      "source": "github.com/Overdrive-Consulting/vcskills/tree/main/skills/yc-sourcing-skill",
+      "commit": null,
+      "fileCount": 16,
+      "install": "npx vcskills-cli add yc-sourcing-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill yc-sourcing-skill"
+    },
+    {
       "slug": "yc-startup-fundamentals-skill",
       "name": "YC Startup Fundamentals Skill",
       "license": "none declared",

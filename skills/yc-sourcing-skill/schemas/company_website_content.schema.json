@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CompanyWebsiteContent",
+  "description": "Scraped website content produced by scrape-website. One record per company.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "scrape_status"],
+    "properties": {
+      "company_id": { "type": "integer" },
+      "company_name": { "type": "string" },
+      "website": { "type": ["string", "null"] },
+      "scrape_status": {
+        "type": "string",
+        "enum": ["success", "failed", "no_website", "placeholder"],
+        "description": "success = content extracted; failed = blocked/error; no_website = no URL; placeholder = coming soon page"
+      },
+      "scrape_tool": {
+        "type": ["string", "null"],
+        "enum": ["exa", "apify", "webfetch", null],
+        "description": "Which tool successfully scraped the content"
+      },
+      "headline": { "type": ["string", "null"], "description": "Main hero headline from homepage" },
+      "product_description": { "type": ["string", "null"], "description": "1-3 sentences on what the product does" },
+      "target_customer": { "type": ["string", "null"], "description": "Who the product is for" },
+      "value_proposition": { "type": ["string", "null"], "description": "Key differentiator or benefit" },
+      "pricing_signals": { "type": ["string", "null"], "description": "Pricing tier signals visible on site" },
+      "tech_signals": { "type": ["string", "null"], "description": "Technology stack or AI/ML signals" },
+      "content_mismatch": {
+        "type": "boolean",
+        "default": false,
+        "description": "True if website content significantly contradicts YC description"
+      }
+    }
+  }
+}

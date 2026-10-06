@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "YCCompany",
+  "description": "A YC company record sourced from the YC directory via Apify michael.g/y-combinator-scraper",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "batch"],
+    "properties": {
+      "company_id": { "type": "integer", "description": "Company ID from YC" },
+      "company_name": { "type": "string" },
+      "yc_profile_url": { "type": ["string", "null"], "description": "URL of the company's YC profile" },
+      "logo_url": { "type": ["string", "null"] },
+      "short_description": { "type": ["string", "null"] },
+      "long_description": { "type": ["string", "null"] },
+      "batch": { "type": "string", "description": "YC batch, e.g. 'Winter 2025', 'Spring 2025'" },
+      "industry": { "type": ["string", "null"] },
+      "subindustry": { "type": ["string", "null"] },
+      "stage": { "type": ["string", "null"] },
+      "status": { "type": ["string", "null"] },
+      "tags": { "type": "array", "items": { "type": "string" } },
+      "company_location": { "type": ["string", "null"] },
+      "regions": { "type": "array", "items": { "type": "string" } },
+      "year_founded": { "type": ["string", "null"] },
+      "team_size": { "type": ["string", "null"] },
+      "primary_partner": { "type": ["string", "null"] },
+      "top_company": { "type": ["boolean", "null"] },
+      "nonprofit": { "type": ["boolean", "null"] },
+      "website": { "type": ["string", "null"] },
+      "company_linkedin": { "type": ["string", "null"] },
+      "company_x": { "type": ["string", "null"] },
+      "company_facebook": { "type": ["string", "null"] },
+      "company_crunchbase": { "type": ["string", "null"] },
+      "company_github": { "type": ["string", "null"] },
+      "is_hiring": { "type": ["boolean", "null"] },
+      "number_of_open_jobs": { "type": ["integer", "null"] },
+      "founders": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "founder_id": { "type": "integer" },
+            "name": { "type": "string" },
+            "title": { "type": ["string", "null"] },
+            "bio": { "type": ["string", "null"] },
+            "email_available": { "type": ["boolean", "null"] },
+            "email": { "type": ["string", "null"] },
+            "email_status": { "type": ["string", "null"], "enum": ["verified", "risky", null] },
+            "linkedin": { "type": ["string", "null"] },
+            "x": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

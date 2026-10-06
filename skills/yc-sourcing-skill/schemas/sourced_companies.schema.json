@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SourcedCompanies",
+  "description": "Final merged output of the full sourcing pipeline. One record per company with all enriched data.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "batch"],
+    "description": "Merged from yc_companies, enriched_founders, website_content, company_news, and company_fundraises",
+    "properties": {
+      "company_id": { "type": "integer" },
+      "company_name": { "type": "string" },
+      "yc_profile_url": { "type": ["string", "null"] },
+      "logo_url": { "type": ["string", "null"] },
+      "short_description": { "type": ["string", "null"] },
+      "long_description": { "type": ["string", "null"] },
+      "batch": { "type": "string" },
+      "industry": { "type": ["string", "null"] },
+      "subindustry": { "type": ["string", "null"] },
+      "stage": { "type": ["string", "null"] },
+      "status": { "type": ["string", "null"] },
+      "tags": { "type": "array", "items": { "type": "string" } },
+      "company_location": { "type": ["string", "null"] },
+      "year_founded": { "type": ["string", "null"] },
+      "team_size": { "type": ["string", "null"] },
+      "website": { "type": ["string", "null"] },
+      "company_linkedin": { "type": ["string", "null"] },
+      "company_x": { "type": ["string", "null"] },
+      "company_crunchbase": { "type": ["string", "null"] },
+      "company_github": { "type": ["string", "null"] },
+      "is_hiring": { "type": ["boolean", "null"] },
+      "number_of_open_jobs": { "type": ["integer", "null"] },
+      "founders": {
+        "type": "array",
+        "description": "Enriched founders array from founder_profile",
+        "items": {
+          "type": "object",
+          "properties": {
+            "founder_id": { "type": "integer" },
+            "name": { "type": "string" },
+            "title": { "type": ["string", "null"] },
+            "bio": { "type": ["string", "null"] },
+            "bio_source": { "type": ["string", "null"] },
+            "email": { "type": ["string", "null"] },
+            "email_tier": { "type": ["string", "null"] },
+            "email_source": { "type": ["string", "null"] },
+            "linkedin": { "type": ["string", "null"] },
+            "linkedin_source": { "type": ["string", "null"] },
+            "x": { "type": ["string", "null"] }
+          }
+        }
+      },
+      "website_content": {
+        "type": ["object", "null"],
+        "description": "Scraped website signals from scrape-website",
+        "properties": {
+          "scrape_status": { "type": "string" },
+          "headline": { "type": ["string", "null"] },
+          "product_description": { "type": ["string", "null"] },
+          "target_customer": { "type": ["string", "null"] },
+          "value_proposition": { "type": ["string", "null"] },
+          "pricing_signals": { "type": ["string", "null"] },
+          "tech_signals": { "type": ["string", "null"] }
+        }
+      },
+      "news": {
+        "type": ["object", "null"],
+        "description": "News signals from find-latest-news",
+        "properties": {
+          "news_momentum": { "type": "integer" },
+          "product_hunt_featured": { "type": "boolean" },
+          "hacker_news_featured": { "type": "boolean" },
+          "top_article": {
+            "type": ["object", "null"],
+            "properties": {
+              "title": { "type": "string" },
+              "url": { "type": "string" },
+              "source": { "type": ["string", "null"] },
+              "published_date": { "type": ["string", "null"] },
+              "signal_type": { "type": "string" }
+            }
+          }
+        }
+      },
+      "fundraising": {
+        "type": ["object", "null"],
+        "description": "Funding data from find-latest-fundraise",
+        "properties": {
+          "fundraising_status": { "type": "string" },
+          "has_post_yc_funding": { "type": "boolean" },
+          "total_raised_usd": { "type": ["number", "null"] },
+          "last_round_type": { "type": ["string", "null"] },
+          "last_round_amount_usd": { "type": ["number", "null"] },
+          "last_round_date": { "type": ["string", "null"] },
+          "last_round_lead_investors": { "type": "array", "items": { "type": "string" } },
+          "likely_raising_soon": { "type": "boolean" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

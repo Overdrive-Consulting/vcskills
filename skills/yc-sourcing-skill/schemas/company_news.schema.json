@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CompanyNews",
+  "description": "Latest news and press coverage produced by find-latest-news. One record per company.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["company_id", "company_name", "news_momentum"],
+    "properties": {
+      "company_id": { "type": "integer" },
+      "company_name": { "type": "string" },
+      "news_momentum": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 5,
+        "description": "0 = no coverage, 5 = multiple major press in last 3 months"
+      },
+      "product_hunt_featured": { "type": "boolean", "default": false },
+      "hacker_news_featured": { "type": "boolean", "default": false },
+      "articles": {
+        "type": "array",
+        "description": "Up to 5 most recent and relevant articles",
+        "items": {
+          "type": "object",
+          "required": ["title", "url", "signal_type"],
+          "properties": {
+            "title": { "type": "string" },
+            "url": { "type": "string" },
+            "source": { "type": ["string", "null"], "description": "Publication name e.g. TechCrunch" },
+            "published_date": { "type": ["string", "null"], "description": "ISO date string" },
+            "summary": { "type": ["string", "null"] },
+            "signal_type": {
+              "type": "string",
+              "enum": ["product_launch", "partnership", "hiring", "award", "founder_interview", "customer_win", "general"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
