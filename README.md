@@ -1,6 +1,6 @@
 # VCSkills
 
-The curated skill library for venture capital — 104 agent skills for GPs,
+The curated skill library for venture capital — 105 agent skills for GPs,
 analysts, and operators. Browse them at [vcskills.com](https://vcskills.com).
 
 ## Install
@@ -44,7 +44,7 @@ Licenses across the library:
 | License | Skills |
 |---|---|
 | Apache-2.0 | 44 |
-| MIT | 33 |
+| MIT | 34 |
 | none declared | 21 |
 | CC-BY-SA-4.0 | 3 |
 | NOASSERTION | 2 |
@@ -115,6 +115,7 @@ We will act on it promptly — no justification needed.
 | [`launch-strategy-skill`](skills/launch-strategy-skill/) | MIT | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/launch-strategy) |
 | [`lean-startup-methodology-skill`](skills/lean-startup-methodology-skill/) | none declared | [rwHiveAqua/_idea_spinner](https://github.com/rwHiveAqua/_idea_spinner/tree/main/.claude/skills/lean-startup) |
 | [`legal-risk-assessment-skill`](skills/legal-risk-assessment-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment) |
+| [`lp-reporting-skill`](skills/lp-reporting-skill/) | MIT | [Overdrive-Consulting/vcskills](https://github.com/Overdrive-Consulting/vcskills/tree/main/skills/lp-reporting-skill) |
 | [`market-sizing-analysis-skill`](skills/market-sizing-analysis-skill/) | MIT | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/market-sizing-analysis) |
 | [`marketing-competitive-analysis-skill`](skills/marketing-competitive-analysis-skill/) | Apache-2.0 | [propane-ai/kits](https://github.com/propane-ai/kits/tree/main/plugins/Marketing/skills/competitive-analysis) |
 | [`meeting-briefing-skill`](skills/meeting-briefing-skill/) | Apache-2.0 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing) |

@@ -543,6 +543,16 @@
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill legal-risk-assessment-skill"
     },
     {
+      "slug": "lp-reporting-skill",
+      "name": "LP Reporting Skill",
+      "license": "MIT",
+      "source": "github.com/Overdrive-Consulting/vcskills/tree/main/skills/lp-reporting-skill",
+      "commit": null,
+      "fileCount": 7,
+      "install": "npx vcskills-cli add lp-reporting-skill",
+      "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill lp-reporting-skill"
+    },
+    {
       "slug": "market-sizing-analysis-skill",
       "name": "Market Sizing Analysis Skill",
       "license": "MIT",
@@ -588,7 +598,7 @@
       "license": "none declared",
       "source": "github.com/yamz8/open-ceo/tree/main/investor-updates/skills/monthly-investor-updates",
       "commit": "81458fbc0d44cc1de2cd24553485daeeaa041fa5",
-      "fileCount": 6,
+      "fileCount": 7,
       "install": "npx vcskills-cli add monthly-investor-updates-skill",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill monthly-investor-updates-skill"
     },
@@ -908,7 +918,7 @@
       "license": "MIT",
       "source": "github.com/ailabs-393/ai-labs-claude-skills/tree/main/dist/skills/startup-validator",
       "commit": "1a12bc7aadcc7b211f77a7455db454b77a71f827",
-      "fileCount": 6,
+      "fileCount": 7,
       "install": "npx vcskills-cli add startup-validator-comprehensive-market-analysis",
       "installDirect": "npx skills add Overdrive-Consulting/vcskills --skill startup-validator-comprehensive-market-analysis"
     },
